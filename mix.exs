@@ -7,8 +7,8 @@ defmodule WebDriver.Mixfile do
       description: "Webdriver protocol for driving web browsers.",
       source_url: "https://github.com/stuart/elixir-webdriver",
       homepage_url: "http://stuart.github.io/elixir-webdriver",
-      package: package,
-      deps: deps,
+      package: package(),
+      deps: deps(),
       docs: [
         readme: true,
         main: "README"
